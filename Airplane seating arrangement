@@ -2,6 +2,7 @@
 #include <conio.h>
 void main()
 {
+   seat obj;
    long int p[];
    long int x[][];
    cout<<"Enter number of seats";
@@ -18,17 +19,19 @@ void main()
 
    for(int i=0;i<=pa;i++)
    if(p[i]%i!=0)
-       int seat(n,x,y);
+       obj.seat(n,x,y)
    for(int i=0;i<=pa;i++)
    {
    if(p[i]%2==0)
-       int seat(n,x,y);
+       obj.seat(n,x,y);
    else
-       int seat(n,x,y);
+       obj.seat(n,x,y);
    }
 }
-void int seat(int seat,int a,int b)
+class seat
 {
+public:
+ seat(n,x,y)
    int s;
   for(int i=0;i<=c;i++)
   {
@@ -46,3 +49,4 @@ void int seat(int seat,int a,int b)
   }
 
 }
+
