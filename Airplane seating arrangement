@@ -1,0 +1,48 @@
+#include <iostream.h>
+#include <conio.h>
+void main()
+{
+   long int p[];
+   long int x[][];
+   cout<<"Enter number of seats";
+   cin>>n;
+   cout<<"Enter number of passengers";
+   cin>>pa;
+   cout<<"Enter number of rows";
+   cin>>r;
+   cout<<"Enter number of columns";
+   cin>>c;
+   cout<<"Enter passenger id";
+   for(int i=0;i<=pa;i++)
+   cin>>p[pa];
+
+   for(int i=0;i<=pa;i++)
+   if(p[i]%i!=0)
+       int seat(n,x,y);
+   for(int i=0;i<=pa;i++)
+   {
+   if(p[i]%2==0)
+       int seat(n,x,y);
+   else
+       int seat(n,x,y);
+   }
+}
+void int seat(int seat,int a,int b)
+{
+   int s;
+  for(int i=0;i<=c;i++)
+  {
+    for(int j=0;j<=r;j++)
+    if(n[i]==0||n[j][i]==0)
+    {
+        s+="- ";
+        continue;
+    }
+    for(k=0;k<n;k++)
+    {
+        s+=(x[i][j][k]);
+    }
+    s+="\n";
+  }
+
+}
